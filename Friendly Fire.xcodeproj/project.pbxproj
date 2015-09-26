@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340AB3981B78E7F300D552EB /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340AB3971B78E7F300D552EB /* Tank.swift */; };
+		340AB39A1B78ED1500D552EB /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340AB3991B78ED1500D552EB /* Board.swift */; };
 		34D1CA221B6C4D41002A36EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1CA211B6C4D41002A36EE /* AppDelegate.swift */; };
 		34D1CA241B6C4D41002A36EE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 34D1CA231B6C4D41002A36EE /* GameScene.sks */; };
 		34D1CA261B6C4D41002A36EE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1CA251B6C4D41002A36EE /* GameScene.swift */; };
@@ -15,6 +17,12 @@
 		34D1CA2D1B6C4D41002A36EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D1CA2C1B6C4D41002A36EE /* Images.xcassets */; };
 		34D1CA301B6C4D41002A36EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D1CA2E1B6C4D41002A36EE /* LaunchScreen.xib */; };
 		34D1CA3C1B6C4D41002A36EE /* Friendly_FireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1CA3B1B6C4D41002A36EE /* Friendly_FireTests.swift */; };
+		34D1CA461B6C4DE8002A36EE /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1CA451B6C4DE8002A36EE /* MainMenu.swift */; };
+		34D1CA481B6C4E0E002A36EE /* GameEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1CA471B6C4E0E002A36EE /* GameEnded.swift */; };
+		34D1CA4A1B6C4E31002A36EE /* HighScoreScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1CA491B6C4E31002A36EE /* HighScoreScene.swift */; };
+		34D1CA4C1B6C4E5A002A36EE /* RulesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1CA4B1B6C4E5A002A36EE /* RulesScene.swift */; };
+		34D1CA4E1B6C4E7C002A36EE /* OtherMenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1CA4D1B6C4E7C002A36EE /* OtherMenuPage.swift */; };
+		34D1CA501B6C4E9D002A36EE /* SettingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1CA4F1B6C4E9D002A36EE /* SettingScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		340AB3971B78E7F300D552EB /* Tank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tank.swift; sourceTree = "<group>"; };
+		340AB3991B78ED1500D552EB /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		34D1CA1C1B6C4D41002A36EE /* Friendly Fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friendly Fire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D1CA201B6C4D41002A36EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34D1CA211B6C4D41002A36EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +50,12 @@
 		34D1CA351B6C4D41002A36EE /* Friendly FireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Friendly FireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D1CA3A1B6C4D41002A36EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34D1CA3B1B6C4D41002A36EE /* Friendly_FireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friendly_FireTests.swift; sourceTree = "<group>"; };
+		34D1CA451B6C4DE8002A36EE /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		34D1CA471B6C4E0E002A36EE /* GameEnded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameEnded.swift; sourceTree = "<group>"; };
+		34D1CA491B6C4E31002A36EE /* HighScoreScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScoreScene.swift; sourceTree = "<group>"; };
+		34D1CA4B1B6C4E5A002A36EE /* RulesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesScene.swift; sourceTree = "<group>"; };
+		34D1CA4D1B6C4E7C002A36EE /* OtherMenuPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherMenuPage.swift; sourceTree = "<group>"; };
+		34D1CA4F1B6C4E9D002A36EE /* SettingScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340AB3961B78E7C200D552EB /* OOP */ = {
+			isa = PBXGroup;
+			children = (
+				340AB3971B78E7F300D552EB /* Tank.swift */,
+				340AB3991B78ED1500D552EB /* Board.swift */,
+			);
+			name = OOP;
+			sourceTree = "<group>";
+		};
 		34D1CA131B6C4D41002A36EE = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +106,10 @@
 		34D1CA1E1B6C4D41002A36EE /* Friendly Fire */ = {
 			isa = PBXGroup;
 			children = (
-				34D1CA211B6C4D41002A36EE /* AppDelegate.swift */,
-				34D1CA231B6C4D41002A36EE /* GameScene.sks */,
-				34D1CA251B6C4D41002A36EE /* GameScene.swift */,
-				34D1CA271B6C4D41002A36EE /* GameViewController.swift */,
-				34D1CA291B6C4D41002A36EE /* Main.storyboard */,
-				34D1CA2C1B6C4D41002A36EE /* Images.xcassets */,
-				34D1CA2E1B6C4D41002A36EE /* LaunchScreen.xib */,
+				340AB3961B78E7C200D552EB /* OOP */,
+				34D1CA511B6C50B3002A36EE /* Made By Apple */,
+				34D1CA521B6C50B6002A36EE /* My Scenes */,
+				34D1CA531B6C50B9002A36EE /* UI / Images / Sound */,
 				34D1CA1F1B6C4D41002A36EE /* Supporting Files */,
 			);
 			path = "Friendly Fire";
@@ -116,6 +138,40 @@
 				34D1CA3A1B6C4D41002A36EE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34D1CA511B6C50B3002A36EE /* Made By Apple */ = {
+			isa = PBXGroup;
+			children = (
+				34D1CA211B6C4D41002A36EE /* AppDelegate.swift */,
+				34D1CA231B6C4D41002A36EE /* GameScene.sks */,
+				34D1CA271B6C4D41002A36EE /* GameViewController.swift */,
+			);
+			name = "Made By Apple";
+			sourceTree = "<group>";
+		};
+		34D1CA521B6C50B6002A36EE /* My Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				34D1CA491B6C4E31002A36EE /* HighScoreScene.swift */,
+				34D1CA4F1B6C4E9D002A36EE /* SettingScene.swift */,
+				34D1CA251B6C4D41002A36EE /* GameScene.swift */,
+				34D1CA451B6C4DE8002A36EE /* MainMenu.swift */,
+				34D1CA471B6C4E0E002A36EE /* GameEnded.swift */,
+				34D1CA4B1B6C4E5A002A36EE /* RulesScene.swift */,
+				34D1CA4D1B6C4E7C002A36EE /* OtherMenuPage.swift */,
+			);
+			name = "My Scenes";
+			sourceTree = "<group>";
+		};
+		34D1CA531B6C50B9002A36EE /* UI / Images / Sound */ = {
+			isa = PBXGroup;
+			children = (
+				34D1CA291B6C4D41002A36EE /* Main.storyboard */,
+				34D1CA2C1B6C4D41002A36EE /* Images.xcassets */,
+				34D1CA2E1B6C4D41002A36EE /* LaunchScreen.xib */,
+			);
+			name = "UI / Images / Sound";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,11 +218,14 @@
 		34D1CA141B6C4D41002A36EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = macrevieweru;
 				TargetAttributes = {
 					34D1CA1B1B6C4D41002A36EE = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = NCVQLT4VT4;
 					};
 					34D1CA341B6C4D41002A36EE = {
 						CreatedOnToolsVersion = 6.4;
@@ -221,7 +280,15 @@
 			files = (
 				34D1CA261B6C4D41002A36EE /* GameScene.swift in Sources */,
 				34D1CA281B6C4D41002A36EE /* GameViewController.swift in Sources */,
+				34D1CA4E1B6C4E7C002A36EE /* OtherMenuPage.swift in Sources */,
+				34D1CA481B6C4E0E002A36EE /* GameEnded.swift in Sources */,
+				340AB39A1B78ED1500D552EB /* Board.swift in Sources */,
+				34D1CA4A1B6C4E31002A36EE /* HighScoreScene.swift in Sources */,
+				34D1CA4C1B6C4E5A002A36EE /* RulesScene.swift in Sources */,
 				34D1CA221B6C4D41002A36EE /* AppDelegate.swift in Sources */,
+				340AB3981B78E7F300D552EB /* Tank.swift in Sources */,
+				34D1CA461B6C4DE8002A36EE /* MainMenu.swift in Sources */,
+				34D1CA501B6C4E9D002A36EE /* SettingScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,9 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ilyse Garber (NCVQLT4VT4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = "Friendly Fire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fc19913c-8a58-41a5-832e-cb3166bc594d";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,9 +429,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ilyse Garber (NCVQLT4VT4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = "Friendly Fire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fc19913c-8a58-41a5-832e-cb3166bc594d";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -417,6 +492,7 @@
 				34D1CA411B6C4D41002A36EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34D1CA421B6C4D41002A36EE /* Build configuration list for PBXNativeTarget "Friendly FireTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +501,7 @@
 				34D1CA441B6C4D41002A36EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
